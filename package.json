@@ -1,0 +1,39 @@
+{
+  "name": "@rbss/marathon-deployer",
+  "version": "1.0.0",
+  "description": "Deploy your application to an Apache Marathon cluster.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advantageous/marathon-deployer.git"
+  },
+  "keywords": [
+    "marathon",
+    "docker",
+    "deploy",
+    "deployer",
+    "mesos"
+  ],
+  "marathonEnvironments": {
+    "staging": {
+      "marathonApi": "http://mesos-master1.rbss.staging.rbmhops.net:8080",
+      "npmRepo": "http://artifactory.rbmhops.net/artifactory/api/npm/npm-all"
+    },
+    "production": {
+      "marathonApi": "https://admin:FTnDodxwLA34KN@control.rbss-prod.rbmhops.net:8080",
+      "npmRepo": "http://artifactory.rbmhops.net/artifactory/api/npm/npm-all"
+    }
+  },
+  "author": "Geoff Chandler",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/advantageous/marathon-deployer/issues"
+  },
+  "homepage": "https://github.com/advantageous/marathon-deployer#readme",
+  "dependencies": {
+    "bundled-dependencies": "^2.1.0"
+  }
+}
