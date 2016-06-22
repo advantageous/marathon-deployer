@@ -4,7 +4,7 @@
   "description": "Deploy your application to an Apache Marathon cluster.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -32,8 +32,5 @@
   "bugs": {
     "url": "https://github.com/advantageous/marathon-deployer/issues"
   },
-  "homepage": "https://github.com/advantageous/marathon-deployer#readme",
-  "dependencies": {
-    "bundled-dependencies": "^2.1.0"
-  }
+  "homepage": "https://github.com/advantageous/marathon-deployer#readme"
 }
